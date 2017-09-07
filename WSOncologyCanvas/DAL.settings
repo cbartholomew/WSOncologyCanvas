@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WSOncologyCanvas" GeneratedClassName="DAL">
+  <Profiles />
+  <Settings>
+    <Setting Name="CONNECTION_STRING" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=[SERVER];Initial Catalog=[DATABASE];User Id=[USERNAME];Password=[PASSWORD]</Value>
+    </Setting>
+    <Setting Name="ONCOLOGY_SERVER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MOSAIQCLSQL</Value>
+    </Setting>
+    <Setting Name="ONCOLOGY_CATALOG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mosaiq</Value>
+    </Setting>
+    <Setting Name="ONCOLOGY_USER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ReadingRadPooledUser2</Value>
+    </Setting>
+    <Setting Name="ONCOLOGY_PWD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ReadingRadPooledUser2</Value>
+    </Setting>
+    <Setting Name="INDEX_STORE_FILE_NAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MOSAIQ_LAST_PT_INDEX_STORE.txt</Value>
+    </Setting>
+    <Setting Name="GET_ALL_PATIENTS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[dbo].[Shields_WSOncologyCanvas_GetAllPatients]</Value>
+    </Setting>
+    <Setting Name="GET_LAST_PT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[dbo].[Shields_WSOncologyCanvas_GetLastPT]</Value>
+    </Setting>
+    <Setting Name="CONNECTION_STRING_ERROR_LOGGER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=SHCAPPPRODDB;Initial Catalog=SHIELDS_ERROR_LOGGER;User Id=ReadingRadPooledUser;Password=ReadingRadPooledUser</Value>
+    </Setting>
+    <Setting Name="LOCAL_WEB_LOG_FILE_NAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WebStatusLog.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

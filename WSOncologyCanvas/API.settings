@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WSOncologyCanvas" GeneratedClassName="API">
+  <Profiles />
+  <Settings>
+    <Setting Name="REFERENCE_DATA_URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.gocanvas.com/apiv2/reference_datas?username=[USERNAME]&amp;password=[PASSWORD]</Value>
+    </Setting>
+    <Setting Name="USERNAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PASSWORD" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ACTION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Append</Value>
+    </Setting>
+    <Setting Name="NAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mosaiq_dataset_01302014</Value>
+    </Setting>
+    <Setting Name="XML_FILE_NAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Canvas.xml</Value>
+    </Setting>
+    <Setting Name="XML_RESPONSE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ServerResponse.xml</Value>
+    </Setting>
+    <Setting Name="SUBMISSION_DATA_URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.gocanvas.com/apiv2/submissions.xml?username=[USERNAME]&amp;password=[PASSWORD]&amp;form_name=[FORM_NAME]</Value>
+    </Setting>
+    <Setting Name="IMAGE_GET_URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.gocanvas.com/apiv2/images.xml?image_id=[IMAGE_ID]username=[USERNAME]&amp;password=[PASSWORD]</Value>
+    </Setting>
+    <Setting Name="USERGROUP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Oncology</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
